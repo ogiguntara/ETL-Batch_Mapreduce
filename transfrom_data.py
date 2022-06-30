@@ -11,7 +11,7 @@ from datetime import datetime
 if __name__ == "__main__":
     time = datetime.now().strftime("%Y%m%d")
 
-    engine = create_engine('postgresql://postgres:postgres@localhost:5432/dwh_digitalskola')
+    engine = create_engine('postgresql://postgres:12345@localhost:5432/dwh_digitalskola')
 
     conf_hadoop = connection.param_config("hadoop")["ip"]
     client = InsecureClient(conf_hadoop)

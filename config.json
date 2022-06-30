@@ -2,7 +2,7 @@
     "postgresql":{
         "host":"localhost",
         "user":"postgres",
-        "password":"postgres",
+        "password":"12345",
         "database":"digitalskola",
         "port":5432
     },
@@ -10,7 +10,7 @@
     "datawarehouse":{
         "host":"localhost",
         "user":"postgres",
-        "password":"postgres",
+        "password":"12345",
         "database":"dwh_digitalskola",
         "port":5432
     },
